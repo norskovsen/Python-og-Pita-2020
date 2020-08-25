@@ -61,7 +61,7 @@ print(sum_list([1, 3, 3, 7, 2]))     # Output: 16
 print(sum_list([4, 0, 5]))           # Output: 9
 ```
 
-### Opgave 4 - TODO
+### Opgave 4
 
 Lav en funktion `smallest_square`, der finder det tal `n`, hvor `2^n>=arg`
 
