@@ -1,7 +1,7 @@
 # Python og Pita workshop 2020 - TODO
 - [Link til slides](https://docs.google.com/presentation/d/1QwZ_1nFgREZk3raEFPRpUNxN8wlyvoeR7H4Fi6NIhrk/edit#slide=id.g62210f0158_3_30)
 - Kode eksempler ligger i `eksempler` mappen
-- Man kan også bruge følgende [notebook](https://colab.research.google.com/drive/18Ux2nuOxjlSxSdinqL0JHhgqL5dVqEoK)
+- Man kan også bruge følgende [notebook](https://colab.research.google.com/drive/111TLwovLf6tgssAjlvuzAgdacBdU6tkn)
 
 ## Installation af Python 3
 - **Windows:** https://realpython.com/installing-python/#windows
