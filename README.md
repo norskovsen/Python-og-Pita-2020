@@ -9,9 +9,22 @@
 - **Linux:** https://realpython.com/installing-python/#linux
 
 ## Opgaver - TODO
-### Opgave a
-Lav en funktion `my, der tager to nummer og addere dem sammen
-### Opgave b
+### Opgave 1
+Lav en funktion `my_function`, der tager to nummer og addere dem sammen
+
+**Skabelon**
+
+```python
+def my_function(a, b):
+    pass
+
+print(my_function(2,3))  # Output: 5
+print(my_function(3,5))  # Output: 8
+print(my_function(10,7)) # Output: 17
+print(my_function(9,7))  # Output: 16
+```
+
+### Opgave 2
 Lav en funktion, der udregner den euklidiske afstand mellem to punkter `p` og `q`. Punkterne representeres, som en tuple af `x` og `y` koordinaterne. Afstanden kan udregnes vha. følgende formel:
 ![distance](img/distance.gif)
 
@@ -28,62 +41,32 @@ print(distance((14,10),(0,11))) # Output: 14.036...
 print(distance((13,18),(12,8))) # Output: 10.049...
 ```
 
-### Opgave c
-Lav en funktion, som tager et beløb `amount`, en rente `interest_rate` og en månedlige betaling `montly_payment` og udregner hvor mange måneder det vil tage at betale og hvor penge der er til overs til sidst. (Funktion kan risikere at køre for evigt, hvis rente af lånet overstiger den månedlige betaling)
+### Opgave 3
+
+Lav en funktion `sum_list`, der tager en liste af tal og ligger den liste af tal sammen
 
 **Skabelon**
+
 ```python
-def calculate_loan(amount, interest_rate, monthly_payment):
+def sum_list(lst):
     pass
 
-
-print(calculate_loan(2000, 0.01, 200))   # output: (11, -82.03...)
-print(calculate_loan(100, 0.02, 200))    # output: (1, -98.0)
-print(calculate_loan(10000, 0.10, 2000)) # output: (8, -1435.88...)
+print(sum_list([3, 0, 3]))           # Output: 6
+print(sum_list([8, 8, 0, 7, 7, 8]))  # Output: 38
+print(sum_list([2, 1, 8, 8, 8]))     # Output: 27
+print(sum_list([1, 3, 3, 7, 2]))     # Output: 16
+print(sum_list([4, 0, 5]))           # Output: 9
 ```
 
-### Opgave d - TODO
-Lav en funktion, der givet et brugernavn `username`, en adgangskode `password`, et navn `name` og en alder `age` og tjekker at:
-- Brugernavnet har højest længde 12
-- Adgangskoden har mindst længde 10
-- Navnet er enten `None` eller har højest længde 12
-- Alderen er enten -1 eller positiv
+### Opgave 4 - TODO
 
-**Skabelon**
-```python
-def check_credentials(username, password, name = None, age = -1):
-    pass
-
-
-print(check_credentials("username", "securepassword"))                           # Output: True
-print(check_credentials("toolongusername", "1234567890"))                        # Output: False
-print(check_credentials("bob12", "1234"))                                        # Output: False
-print(check_credentials("jensen", "longpassword", name = "Poul Hans Jensen"))    # Output: False
-print(check_credentials("therealadam", "mynameisadam", name = "Adam", age=-23))  # Output: False
-print(check_credentials("alice16", "6E&3sWXn2dnlv4", name = "Alice", age=20))    # Output: True
-```
-
-### Opgave e - TODO
-Lav en funktion, som tjekker hvorvidt en liste `lst` er sorteret. 
-
-**Skabelon**
-```python
-def is_sorted(lst):
-    pass
-
-
-print(is_sorted([17, 23, 27, 19, 31, 11])) # Output: False
-print(is_sorted([1, 24, 26, 30, 33]))      # Output: True
-print(is_sorted([9, 30, 39, 43, 43, 44]))  # Output: True
-print(is_sorted([18, 14, 16, 5, 25]))      # Output: False
-```
+*While loops*
 
 
 
 ## Brugbare biblioteker
 
 - Math: https://docs.python.org/3/library/math.html
-- Mypy: http://mypy-lang.org/
 - Sympy: https://www.sympy.org/en/index.html
 - Numpy: https://docs.scipy.org/doc/numpy/reference/
 - Matplotlib: https://matplotlib.org/contents.html
