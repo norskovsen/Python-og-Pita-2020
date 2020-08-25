@@ -89,3 +89,10 @@ print(smallest_square(801))  # Output: 10
 - Matplotlib: https://matplotlib.org/contents.html
 - iPython: https://ipython.readthedocs.io/en/stable/
 
+
+
+## Python og Pita workshop 2019
+
+*Lidt højere niveau*
+
+https://github.com/norskovsen/Python-og-Pita-2019
