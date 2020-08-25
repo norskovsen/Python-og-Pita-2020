@@ -63,7 +63,21 @@ print(sum_list([4, 0, 5]))           # Output: 9
 
 ### Opgave 4 - TODO
 
-*While loops*
+Lav en funktion `smallest_square`, der finder det tal `n`, hvor `2^n>=arg`
+
+**Skabelon**
+
+```python
+def smallest_square(arg):
+    pass
+
+
+print(smallest_square(2))    # Output: 1
+print(smallest_square(7))    # Output: 3
+print(smallest_square(32))   # Output: 5
+print(smallest_square(100))  # Output: 7
+print(smallest_square(801))  # Output: 10
+```
 
 
 
