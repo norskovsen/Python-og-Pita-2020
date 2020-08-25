@@ -1,7 +1,12 @@
-def calculate_loan(amount, interest_rate, monthly_payment):
-    pass
+def sum_list(lst):
+    res = 0
+    for elm in lst:
+        res = res + elm
+    return res
 
 
-print(calculate_loan(2000, 0.01, 200))    # output: (11, -82.03...)
-print(calculate_loan(100, 0.02, 200))     # output: (1, -98.0)
-print(calculate_loan(10000, 0.10, 2000))  # output: (8, -1435.88...)
+print(sum_list([3, 0, 3]))           # Output: 6
+print(sum_list([8, 8, 0, 7, 7, 8]))  # Output: 38
+print(sum_list([2, 1, 8, 8, 8]))     # Output: 27
+print(sum_list([1, 3, 3, 7, 2]))     # Output: 16
+print(sum_list([4, 0, 5]))           # Output: 9

@@ -18,10 +18,10 @@ Lav en funktion `my_function`, der tager to nummer og addere dem sammen
 def my_function(a, b):
     pass
 
-print(my_function(2,3))  # Output: 5
-print(my_function(3,5))  # Output: 8
-print(my_function(10,7)) # Output: 17
-print(my_function(9,7))  # Output: 16
+print(my_function(2, 3))  # Output: 5
+print(my_function(3, 5))  # Output: 8
+print(my_function(10, 7)) # Output: 17
+print(my_function(9, 7))  # Output: 16
 ```
 
 ### Opgave 2
@@ -32,13 +32,15 @@ Lav en funktion, der udregner den euklidiske afstand mellem to punkter `p` og `q
 ```python
 from math import sqrt
 
+
 def distance(p, q):
     pass
 
-print(distance((2,1),(4,1)))    # Output: 2.0
-print(distance((4,3),(3,20)))   # Output: 17.029...
-print(distance((14,10),(0,11))) # Output: 14.036...
-print(distance((13,18),(12,8))) # Output: 10.049...
+
+print(distance((2, 1), (4, 1)))     # Output: 2.0
+print(distance((4, 3), (3, 20)))    # Output: 17.029...
+print(distance((14, 10), (0, 11)))  # Output: 14.036...
+print(distance((13, 18), (12, 8)))  # Output: 10.049...
 ```
 
 ### Opgave 3
@@ -50,6 +52,7 @@ Lav en funktion `sum_list`, der tager en liste af tal og ligger den liste af tal
 ```python
 def sum_list(lst):
     pass
+
 
 print(sum_list([3, 0, 3]))           # Output: 6
 print(sum_list([8, 8, 0, 7, 7, 8]))  # Output: 38
