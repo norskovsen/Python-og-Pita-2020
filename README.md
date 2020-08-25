@@ -1,4 +1,4 @@
-# Python og Pita workshop 2020 - TODO
+# Python og Pita workshop 2020
 - [Link til slides](https://docs.google.com/presentation/d/1QwZ_1nFgREZk3raEFPRpUNxN8wlyvoeR7H4Fi6NIhrk/edit#slide=id.g62210f0158_3_30)
 - Kode eksempler ligger i `eksempler` mappen
 - Man kan også bruge følgende [notebook](https://colab.research.google.com/drive/111TLwovLf6tgssAjlvuzAgdacBdU6tkn)
@@ -8,7 +8,7 @@
 - **MacOS:** https://realpython.com/installing-python/#macos-mac-os-x
 - **Linux:** https://realpython.com/installing-python/#linux
 
-## Opgaver - TODO
+## Opgaver
 ### Opgave 1
 Lav en funktion `my_function`, der tager to nummer og addere dem sammen
 
