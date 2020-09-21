@@ -1,5 +1,8 @@
 def sum_list(lst):
-    pass
+    res = 0
+    for elm in lst:
+        res += elm
+    return res
 
 
 print(sum_list([3, 0, 3]))           # Output: 6
