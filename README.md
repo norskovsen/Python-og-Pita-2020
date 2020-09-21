@@ -10,7 +10,7 @@
 
 ## Opgaver
 ### Opgave 1
-Lav en funktion `my_function`, der tager to nummer og addere dem sammen
+Lav en funktion `my_function`, der tager to nummer og ligger dem sammen
 
 **Skabelon**
 
